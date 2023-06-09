@@ -24,7 +24,7 @@ export default async function Page({
   const pokemon = await getPokemon({ name });
   return (
     <div className="text-center m-12">
-      <h1 className="text-4xl mb-4">{pokemon.name}</h1>
+      <h1 className="text-5xl mb-6">{pokemon.name}</h1>
       <ul>
         <li>
           <strong>Height:</strong> {pokemon.height}
